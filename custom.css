@@ -12,12 +12,12 @@
     height: 100%;
     background-color:;
 }
-@media (max-width) {
+@media (max-width: 768px) {
     .background-image {
-        min-height: 40vh;
+        min-height: 100vh;
 
     }
     h1 {
-        font-size: calc(1.25rem + 3.3vw);
+        font-size: calc(0.5rem + 2vw);
     }
 }
